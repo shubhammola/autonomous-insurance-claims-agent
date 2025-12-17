@@ -136,6 +136,7 @@ To test a scenario, update the `INPUT_FILE` variable in `src/index.js`:
  *
  * ./data/fnol_fraud.txt
  *   → Suspicious claim (Investigation Flag)
+**/
 const INPUT_FILE = "./data/fnol.txt";
 ```
 
@@ -168,11 +169,11 @@ output/result.json
 
 ## 🚀 Future Enhancements
 
-- Add support for PDF FNOL documents and scanned forms using OCR
-- Integrate AI / LLM-based extraction for highly unstructured FNOL inputs
-- Introduce confidence scoring for extracted fields
-- Expose the claims agent via REST APIs for enterprise system integration
-- Add configurable routing rules for different insurers or regions
+- Add support for PDF FNOL documents and scanned forms using OCR.
+- Integrate AI/LLM-based extraction (e.g., OpenAI, Claude, Gemini) for highly unstructured or handwritten FNOL documents, while retaining rule-based validation and routing for explainability and regulatory compliance.
+- Introduce confidence scoring for extracted fields.
+- Expose the claims agent via REST APIs for enterprise system integration.
+- Add configurable routing rules for different insurers or regions.
 
 ## 🏁 Summary
 
